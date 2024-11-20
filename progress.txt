@@ -1,0 +1,29 @@
+The little faces are funny :D
+
+November 2nd 2024
+Made the following:
+assets
+assets\amages
+assets\placeholder.txtUpdated the following:
+assets\images\background.jpg
+root\style.css
+root\index.html
+rot\style.css
+root\progress.txt
+This took 8 hours
+
+November 4th 2024
+added .imgcont in css 
+Made the following:
+root\contact.html 
+root\profile.png 
+November 5th 2024
+Added logos and more styling
+
+November 6th 2024
+No progress
+
+November 7th 2024
+Added a music player with 7 songs (NCS because I don't wanna be copyrighted :p)
+fixed the code for images after screwing it up :/
+No other pages will have the music player :C

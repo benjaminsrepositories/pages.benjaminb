@@ -1,0 +1,63 @@
+<!--Creative Commons Liscensing
+Non Commercial Use Only!
+You can not modify the code, only borrow.
+Code will have notes for you to know what you are doing/copying-->
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <link rel="stylesheet" href="style.css">
+        <link rel="icon" href="./assets/images/logo.png">
+        <title>Benjamin - Portfolio</title>
+    </head>
+    <body>
+        <script src="animtitle.js"></script>
+        <div class="boxed">
+            <h2>Benjamin - Portfolio</h2>
+            <p>Doin this again because my skills are better :p</p>
+            <p class="tiny">I suggest 90% view depending on monitor size</p>
+            <div class="buttoncontainer">
+                <a href="./index.html"><button>Home</button></a>
+                <a href="./contact.html"><button>Contact</button></a>
+            </div>
+        </div>
+        <div class="boxed">
+            <h3>About Me</h3>
+            <p>I am a 15 year old beginner front end developer, I enjoy playing MineCraft with my friends in my free time, or coding, HTML and
+                CSS are some areas where I am more prominent, I am learning python at school, and hoping to move on to JavaScript eventually if
+                I can finish learning HTML and CSS.
+            </p>
+        </div>
+        <div class="boxed">
+            <p xmlns:cc="http://creativecommons.org/ns#" xmlns:dct="http://purl.org/dc/terms/">
+                <span property="dct:title">This Website</span>
+                 is licensed under 
+                 <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;">
+                    CC BY-NC-ND 4.0
+                    <img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1" alt="">
+                    <img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1" alt="">
+                    <img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/nc.svg?ref=chooser-v1" alt="">
+                    <img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/nd.svg?ref=chooser-v1" alt="">
+                </a>
+            </p>
+        </div>
+        <div id="audio-player" class="custom-audio-player">
+            <h2 id="now-playing">Now Playing: </h2>
+            <audio id="audio" preload="auto"></audio>
+            <div class="buttoncontainer">
+                <button id="prev-button">Previous</button>
+                <button id="play-pause-button">Play</button>
+                <button id="next-button">Next</button>
+            </div>
+            <input type="range" id="seek-bar" value="0" min="0" max="100">
+            <div>
+                <span id="current-time">0:00</span> / <span id="duration">0:00</span>
+            </div>
+            <div class="volume-control">
+                <label for="volume-bar">Volume:</label>
+                <input type="range" id="volume-bar" min="0" max="100" value="100">
+                <button id="mute-button">Mute</button>
+            </div>
+            <script src="scripts.js"></script>
+        </div>
+    </body>
+</html>
